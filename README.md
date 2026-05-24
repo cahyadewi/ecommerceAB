@@ -16,7 +16,7 @@ Panduan lengkap 5 fase — dari instalasi XAMPP hingga toko online siap jalan. K
 
 | Modul | Topik | Status | Unduh |
 |-------|-------|--------|-------|
-| CMS 1 | Instalasi WordPress di XAMPP Localhost | ✅ Tersedia | [Unduh PDF](https://cahyadewi.github.io/ecommerceAB/Praktikum_CMS1_Instalasi WordPress Lokal.pdf) |
+| CMS 1 | Instalasi WordPress di XAMPP Localhost | ✅ Tersedia | [Unduh PDF](https://cahyadewi.github.io/ecommerceAB/Praktikum_CMS1_Instalasi_WordPress_Lokal.pdf) |
 | CMS 2 | WooCommerce & Elementor — Setup Toko | ✅ Tersedia | [Unduh PDF](https://cahyadewi.github.io/ecommerceAB/Praktikum_CMS2_WooCommerce_Elementor.pdf) |
 | CMS 3 | Manajemen Produk Lanjutan — Variasi & Stok | ✅ Tersedia | [Unduh PDF](https://cahyadewi.github.io/ecommerceAB/Praktikum_CMS3_Manajemen_Produk_Lanjutan.pdf) |
 | CMS 4 | Manajemen Transaksi — Order, Status & Refund | 🔄 Segera | — |
