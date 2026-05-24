@@ -436,7 +436,7 @@ const phases = [
     results: ['localhost/[nama-folder]', 'localhost/[nama-folder]/wp-admin', 'Aktif di phpMyAdmin'],
     resultLabels: ['URL website lokal', 'URL dashboard admin', 'Status database'],
     moduls: [
-      { name:'Modul CMS 1', desc:'Instalasi WordPress di XAMPP Localhost', status:'available', file:'Praktikum_CMS1_Instalasi_WordPress_Lokal.pdf' },
+      { name:'Modul CMS 1', desc:'Instalasi WordPress di XAMPP Localhost', status:'available', file:'https://cahyadewi.github.io/ecommerceAB/Praktikum_CMS1_Instalasi_WordPress_Lokal.pdf' },
     ]
   },
   {
@@ -454,7 +454,7 @@ const phases = [
     results: ['WooCommerce aktif', 'Halaman Shop/Cart/Checkout otomatis', 'Elementor siap digunakan'],
     resultLabels: ['Status plugin utama', 'Halaman auto-generated', 'Page builder'],
     moduls: [
-      { name:'Modul CMS 2', desc:'WooCommerce & Elementor — E-Commerce UMKM', status:'available', file:'Praktikum_CMS2_WooCommerce_Elementor.pdf' },
+      { name:'Modul CMS 2', desc:'WooCommerce & Elementor — E-Commerce UMKM', status:'available', file:'https://cahyadewi.github.io/ecommerceAB/Praktikum_CMS2_WooCommerce_Elementor.pdf' },
     ]
   },
   {
@@ -472,7 +472,7 @@ const phases = [
     results: ['Min. 5 produk aktif', 'Variasi & stok terkonfigurasi', 'Pengiriman per zona'],
     resultLabels: ['Katalog produk', 'Manajemen stok', 'Konfigurasi ongkir'],
     moduls: [
-      { name:'Modul CMS 3', desc:'Manajemen Produk Lanjutan — Variasi, Stok & Pengiriman', status:'available', file:'Praktikum_CMS3_Manajemen_Produk_Lanjutan.docx' },
+      { name:'Modul CMS 3', desc:'Manajemen Produk Lanjutan — Variasi, Stok & Pengiriman', status:'available', file:'https://cahyadewi.github.io/ecommerceAB/Praktikum_CMS3_Manajemen_Produk_Lanjutan.docx' },
     ]
   },
   {
@@ -579,7 +579,7 @@ function renderCard() {
   const modulHtml = p.moduls.map(m => {
     if (m.status === 'available') {
       return `
-        <a href="${m.file}" download class="modul-card available">
+        <a href="${m.file}" target="_blank" rel="noopener" class="modul-card available">
           <div class="modul-icon avail">${icons.file}</div>
           <div class="modul-info">
             <div class="modul-name">${m.name}</div>
