@@ -375,7 +375,7 @@ body {
         <div class="brand-sub">E-Commerce UMKM dengan WooCommerce & Elementor</div>
       </div>
     </div>
-    <div class="header-meta">Modul tersedia: <span>3 / 5</span></div>
+    <div class="header-meta">Modul tersedia: <span>5 / 5</span></div>
   </div>
 </header>
 
@@ -531,7 +531,7 @@ function renderTabs() {
   const track = document.getElementById('phaseTrack');
   track.innerHTML = phases.map((p, i) => `
     <button
-      class="phase-tab ${i < 3 ? 'available' : ''} ${i === current ? 'active' : ''}"
+      class="phase-tab available ${i === current ? 'active' : ''}"
       data-phase="${i}"
       onclick="go(${i})"
       aria-label="Fase ${i+1}: ${p.label}"
